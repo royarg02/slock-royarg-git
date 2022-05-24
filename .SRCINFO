@@ -1,0 +1,21 @@
+pkgbase = slock-royarg-git
+	pkgdesc = A modified version of the simple X display locker.
+	pkgver = 1.4.r16.9bc5a1f
+	pkgrel = 1
+	url = https://github.com/RoyARG02/slock
+	arch = i686
+	arch = x86_64
+	arch = armv7h
+	license = MIT
+	makedepends = git
+	depends = libxcrypt
+	depends = libxrandr
+	depends = libxinerama
+	depends = libxft
+	provides = slock
+	conflicts = slock
+	conflicts = slock-git
+	source = git+https://github.com/RoyARG02/slock.git
+	md5sums = SKIP
+
+pkgname = slock-royarg-git
