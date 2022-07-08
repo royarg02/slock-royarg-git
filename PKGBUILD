@@ -1,7 +1,7 @@
 # Maintainer: Anurag Roy <anuragr9847@gmail.com>
 _pkgname="slock"
 pkgname="$_pkgname-royarg-git"
-pkgver=1.4.r16.9bc5a1f
+pkgver=1.4.r17.e0e0fff
 pkgrel=1
 pkgdesc="A modified version of the simple X display locker."
 arch=('i686' 'x86_64' 'armv7h')
@@ -9,6 +9,7 @@ url="https://github.com/RoyARG02/$_pkgname"
 license=('MIT')
 depends=('libxcrypt' 'libxrandr' 'libxinerama' 'libxft')
 makedepends=('git')
+optdepends=('xorg-xrdb: for loading X resources')
 provides=("$_pkgname")
 conflicts=("$_pkgname" "$_pkgname-git")
 source=("git+$url.git")
