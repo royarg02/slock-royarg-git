@@ -1,6 +1,6 @@
 pkgbase = slock-royarg-git
 	pkgdesc = A modified version of the simple X display locker.
-	pkgver = 1.4.r16.9bc5a1f
+	pkgver = 1.4.r17.e0e0fff
 	pkgrel = 1
 	url = https://github.com/RoyARG02/slock
 	arch = i686
@@ -12,6 +12,7 @@ pkgbase = slock-royarg-git
 	depends = libxrandr
 	depends = libxinerama
 	depends = libxft
+	optdepends = xorg-xrdb: for loading X resources
 	provides = slock
 	conflicts = slock
 	conflicts = slock-git
